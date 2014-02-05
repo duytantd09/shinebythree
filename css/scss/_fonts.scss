@@ -1,0 +1,52 @@
+@import '//fast.fonts.net/cssapi/4b2011a2-427d-4bcc-a00f-dada5464b4eb.css';
+
+@mixin arial {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.arial {
+	@include arial;
+}
+
+@mixin didot {
+	font-family: 'Linotype Didot W01'; 
+	font-weight: 400;
+	font-style: normal;
+}
+
+.didot {
+	@include didot;
+}
+
+@mixin sackers {
+	font-family: 'Sackers Gothic W01';
+	font-weight: 500;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.sackers {
+	@include sackers;
+}
+
+
+@mixin garamond {
+	font-family: 'Adobe Garamond W08'; 
+	font-weight: 400;
+	font-style: normal;
+}
+
+.garamond {
+	@include garamond;
+}
+
+@mixin garamond-italic {
+	font-family: 'Adobe Garamond W08'; 
+	font-weight: 400;
+	font-style: italic;
+}
+
+.garamond-italic {
+	@include garamond-italic;
+}
